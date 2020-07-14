@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 23px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container {
+    max-width: 1317px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.f-sb {
+    justify-content: space-between;
+}
+.bg-black {
+    background: black;
+    color: wheat;
+    padding: 2px 8px;
+}
+.bg-white {
+    background: white;
+}
+/* header */
+.header-area {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.header-area h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.header-area p {
+    font-size: 15px;
+}
+/* main */
+.main-content-area {
+    padding: 15px 0;
+}
+.blogs {
+    width: 65.8%;
+}
+.sidebar {
+    width: 31.6%;
+}
+/* single-blog */
+.single-blog {
+    background: white;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.blog-img img {
+    width: 100%;
+}
+.blog-content {
+    padding: 0px 16px 16px 16px;
+}
+.blog-content h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+.blog-content p {
+    font-size: 18px;
+}
+.blog-date {
+    color: gray;
+}
+.single-blog .blog-text {
+    line-height: 23px;
+    padding: 10px 0;
+    font-size: 15px;
+}
+.blog-comments-area {
+    display: flex;
+    justify-content: space-between;
+}
+.comments {
+    margin-right: 20px;
+}
+button.read-more {
+    padding: 12px 20px;
+    text-transform: uppercase;
+    background: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+button.read-more:hover {    
+    background: #ccc7c7;;
+}
+/* sidebar */
+.about-me-area {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 40px;
+}
+.about-me-img img {
+    width: 100%;
+}
+.about-me-text h3 {
+    margin: 10px 0;
+}
+.about-me-text {
+    padding: 0 16px 1px;
+}
+.popular-post-area {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 40px;
+}
+.popular-post-area h1 {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 15px;
+    background: #f1f1f1;
+    margin: 0;
+
+}
+.single-popular-post {
+    display: flex;
+}
+.popular-post-area ul {
+    margin: 0;
+    padding: 0;
+}
+.popular-post-area ul li {
+    border-bottom: 1px solid rgb(224, 223, 223);
+}
+
+.popular-post-area ul li a{
+    display: block;
+    padding: 15px;
+}
+.popular-post-area ul li a:hover{
+    background: rgb(216, 207, 207);
+}
+.popular-post-img {
+    width: 15%;
+    margin-right: 20px;
+    line-height: 0px;
+}
+.popular-post-img img {
+    width: 100%;
+}
+.popular-post-title {
+    width: 89%;
+}
+.popular-post-title h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.popular-post-title p {
+    margin: 0;
+}
+.tags-area {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.tags-area h1 {
+    font-size: 20px;
+    font-weight: 400;
+    background: #f1f1f1;
+    padding: 20px 15px;
+    margin: 0px;
+}
+.tags {
+    padding: 10px 16px 20px;
+}
+.tags span {
+    background: #eae9e9b3;
+    padding: 2px 6px;
+    font-size: 13px;
+    line-height: 40px;
+}
+span.highlight-tag {
+    background: black;
+    color: white;
+    padding: 2px 8px;
+    font-size: 15px;
+}
+/* footer */
+.footer-area {
+    background: #616161;
+    padding: 30px 0px;
+}
+.btn {
+    padding: 14px 24px; 
+    font-size: 15px;   
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+button.pre {
+    background: #583d3d;
+    color: #aba396;
+    cursor: not-allowed;
+}
+button.next {
+    background: black;
+    color: white;
+}
+button.pre:hover {
+    background: #815e5e;
+}
+button.next:hover {
+    background: rgb(216, 171, 171);
+}
+
