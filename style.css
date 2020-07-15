@@ -22,6 +22,7 @@ li {
 }
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 .f-sb {
     justify-content: space-between;
@@ -135,6 +136,7 @@ button.read-more:hover {
 }
 .single-popular-post {
     display: flex;
+    flex-wrap: wrap;
 }
 .popular-post-area ul {
     margin: 0;
@@ -152,15 +154,12 @@ button.read-more:hover {
     background: rgb(216, 207, 207);
 }
 .popular-post-img {
-    width: 15%;
+    width: 70px;
     margin-right: 20px;
     line-height: 0px;
 }
 .popular-post-img img {
     width: 100%;
-}
-.popular-post-title {
-    width: 89%;
 }
 .popular-post-title h5 {
     font-size: 18px;
